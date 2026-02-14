@@ -6,6 +6,11 @@ This repository contains a Python-based Graphical User Interface (GUI) designed 
 
 The application automates the "Move-Measure-Save" cycle. It commands the motorized stage to specific positions and, at each step, captures raw waveforms from the oscilloscope, converting binary data into human-readable physical units (Volts and Seconds).
 
+## 📊 User Interface
+
+Below is a screenshot of the control panel:
+[![UI PrtScreen](https://github.com/Jcerqueira9913/Z-scan/blob/main/Screenshot%20from%202026-02-14%2017-29-03.png)](https://github.com/Jcerqueira9913/Z-scan/blob/main/Screenshot%20from%202026-02-14%2017-29-03.png)
+
 ## 🚀 Key Features
 
 * **Modern GUI**: Built with `CustomTkinter` for a responsive, dark-themed user experience.
@@ -18,10 +23,6 @@ The application automates the "Move-Measure-Save" cycle. It commands the motoriz
 * **Multithreaded Execution**: The scanning logic runs in a background thread, ensuring the UI remains responsive during long experiments.
 * **Bidirectional Scanning**: Supports optional data collection during the return trip (Backward Scan) to check for hysteresis or reproducibility.
 
-## 📊 User Interface
-
-Below is a screenshot of the control panel:
-![Screenshot da UI](assets/screenshot.png)
 ## 🛠️ Requirements & Installation
 
 ### Hardware
